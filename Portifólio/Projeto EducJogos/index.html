@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!----- CSS BOOTSTRAP ----->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!----- CSS Style ----->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----- NavBar ----->
+    <nav class="navbar navbar-expand-lg py-3 bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">EDUC JOGOS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="offcanvas"
+                href="#offcanvaslabel"
+                >Categorias</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Favoritos</a>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <div class="btn-group ms-auto">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+            >
+              Contato
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">Menu item</li>
+              <li class="dropdown-item">Menu item</li>
+              <li class="dropdown-item">Menu item</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-----   Hero (Home) ----->
+    <div class="hero vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="display-4 text-white">
+              Venha jogar e aprender com a EDUC JOGOS!
+            </h1>
+            <p class="text-white my-4">
+              Lorem impsum dolor, sit amet, consectetur adipisicing elit. Eaque
+              quia sequi eius. Quas, totam aliquid. Repudiandae reiciendis vel
+              excepturi ipsa voluptate dicta!
+            </p>
+            <a
+              href="#offcanvaslabel"
+              class="btn me-2 btn-primary"
+              data-bs-toggle="offcanvas"
+              role="button"
+              >O que você quer jogar?</a
+            >
+            <!-- OFFCANVAS -->
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvaslabel"
+              aria-labelledby="offcanvasLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLabel">
+                  O que você deseja jogar?
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <!-- ACCORDION -->
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Português
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="list-group list-group-flush text-start">
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/animaisplural/index1.html"
+                              >Animais</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/memoriaalfabeto/index1.html"
+                              >Memorizando o Alfabeto</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingAcess">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseAcess"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseAcess"
+                      >
+                        Inglês
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseAcess"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingAcess"
+                    >
+                      <div class="accordion-body">
+                        <div class="list-group list-group-flush text-start">
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/memoriaalfabetoingles/index1.html"
+                              >Memorizando o Alfabeto em Inglês</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/memorianumerosingles/index1.html"
+                              >Memorizando Números em Inglês</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Matemática
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                    >
+                      <div class="accordion-body">
+                        <div class="list-group list-group-flush text-start">
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/agaleriadasoperacoesmatematicas/index1.html"
+                              >A Galéria</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/aparedeadicao/index1.html"
+                              >Parede Matemática</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/amorcupidomatematica1/index1.html"
+                              >Jogo do Cupido</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/cairecolhenumerosidiomas/index.html"
+                              >Cai e Recolhe</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/barcooperacoesmatematicav2/index1.html"
+                              >Barco Viking</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/caminhoespacialmatematica/index.html"
+                              >Caminho Espacial</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/contaobjetosprofessorautomaticamente/index.html"
+                              >Contando</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/memorianumeros/index1.html"
+                              >Memorizando Números</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/logicamatematica/index.html"
+                              >Lógica Matemática</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/fazendeirooperacoesmatematicas/index1.html"
+                              >Fazendeiro</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Raciocínio Logico
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                    >
+                      <div class="accordion-body">
+                        <div class="list-group list-group-flush text-start">
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/sombrabonecos/index.html"
+                              >Sombreamento</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/sombraaniais2/index.html"
+                              >Sombras Animais</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/contarobjetopassandobruxa/index.html"
+                              >Bruxa que Voa</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/cubomagico1/index.html"
+                              >Cubo Mágico</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour"
+                      >
+                        Acessibilidade
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingFour"
+                    >
+                      <div class="accordion-body">
+                        <div class="list-group list-group-flush text-start">
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/braille/index.html"
+                              >Alfabeto em Braille</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/cailibras/index.html"
+                              >Cai Libras</a
+                            >
+                          </button>
+                          <button
+                            type="button"
+                            class="list-group-item list-group-item-action"
+                          >
+                            <a
+                              href="https://www.efuturo.com.br/jogosseducoficial/memoriaalfabetolibras/index1.html"
+                              >Memorizando Libras</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ACCORDION CLOSE -->
+              </div>
+            </div>
+            <!-- //OFFCANVAS// -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- JS BOOTSTRAP ----->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:#242131 ;
+  font: 400 1rem 'Zen Maru Gothic', sans-serif;
+}
+
+.grid{
+  display: grid;
+  gap:3rem
+}
+
+/*****************  NAV-MENU  **********************/
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:  2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+.logo{
+  font: 700 1rem 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #E1E8FF;
+}
+
+.logo span{
+  color: #8D87FF;
+}
+
+.nav-list {
+  color: #E1E8FF;
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.icons{
+  display: flex;
+}
+
+.cart{
+  width: 1.5rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.lupa{
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+/*****************  SECTION LAYOUT  **********************/
+
+.container{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.image{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.luva{
+  width: 850px;
+  bottom: 2%;
+  left: 34.5%;
+  position: absolute;
+}
+
+h1{
+  font: 900 3.1rem 'Nunito', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient( 45deg, #E1E8FF, #8d87ff, #8d87ff);
+  line-height: 4rem;
+}
+
+a{
+  text-decoration: none;
+  color: #E1E8FF;
+  font-size: 1.1rem;
+}
+
+p{
+  color: #E1E8FF;
+  font-size: 1.1rem;
+}
+
+.bnt{
+  display: inline-block;
+  background: linear-gradient( 45deg,#AE87FF, #8d87ff);
+  border-radius: 48px;
+  padding: 10px 20px;
+  margin-right: 82%;
+  text-align: center;
+  text-decoration: none;
+  color: #E1E8FF;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*****************  SECTION CARACTERES  **********************/
+
+.image-character{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.glove-character {
+  width: 820px;
+  position: absolute;
+  top: 100%;
+  left: -3%;
+}
+
+h2{
+  font: 900 3.1rem 'Nunito', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient( 45deg, #E1E8FF, #8d87ff, #8d87ff);
+  line-height: 3rem;
+}
+
+.text-caractere {
+  margin-top: 150px;
+  margin-left: 60%;
+  line-height: 2rem;
+}
+
+.text-line{
+  display: flex;
+  align-items: center;
+}
+
+.line::after {
+  content: " ";
+  background:linear-gradient( 45deg, #8d87ff, #E1E8FF);
+  border-radius: 3px;
+  display: block;
+  height: 3px;
+  width: 3rem;
+  margin-right: 1.2rem;
+}
+
+
+
+
+/*****************  SECTION OTHERS  **********************/
+
+.box{
+  width: 250px;
+  height: 200px;
+  background: #242131;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px  #8d87ff;
+  margin-top: 6rem;
+}
+
+.box-style{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+  gap: 0.1rem;
+}
+
+.icons-other{
+  width: 3.0rem;
+  margin-left: 100px;
+  margin-top: 3rem;
+}
+
+.other-text1{
+  font: 700 1rem 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 60px;
+}
+
+.other-text2{
+  font: 700 1rem 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 69px;
+}
+
+.other-text3{
+  font: 700 1rem 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 69px;
+}
+
+/*****************  SECTIONS VISION  **********************/
+
+
+.vision-text{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+h3{
+  font: 900 2rem 'Nunito', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient( 45deg, #E1E8FF, #8d87ff, #8d87ff);
+  line-height: 3rem;
+}
+
+.vision-p{
+  font-size: 20px;
+}
+
+.footer-center{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+
+.logo-footer{
+  font: 700 1rem 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #E1E8FF;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 2px solid #AE87FF;
+  background: transparent;
+}
+
+.logo-footer span{
+  color: #8D87FF;
+}
+
+/*****************  SEPARAÇÃO DE SEÇÕES  **********************/
+.section{
+  margin: 5rem 0;
+  color:#AE87FF;
+}
+
+
+::-webkit-meter-bar {
+  width: 12px;
+}
+::-webkit-meter-bar {
+  background: #E1E8FF;
+  border-radius: 14px;
+}
